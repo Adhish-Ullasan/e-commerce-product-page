@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     flex-basis: 100%;
+    /* align-items: anchor-center; */
     
 }
 
@@ -28,6 +29,7 @@ header {
     font-family: 'Kumbh' ,sans-serif;
     font-weight: 400;
    /* font-weight:600; */
+    font-size: 12px; 
 }
 
 .container  {
@@ -52,6 +54,8 @@ main {
     display: flex;
     justify-content: space-evenly;
     font-family: 'Kumbh' ,sans-serif;
+    margin-top: 5rem;
+
 }
 
 .products > div :first-child {
@@ -147,6 +151,7 @@ main {
     background-color: hsl(223, 64%, 98%);
     border-radius: 7px;
     height: 40px;
+     padding: 1px ;
 
 }
 
@@ -166,4 +171,34 @@ main {
 #minus {
     align-items: anchor-center;
     padding-bottom: 5px;
+}
+
+
+.submit {
+
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: anchor-center;
+    border: none;
+    font-size: 10px;
+    font-weight: 400px;
+    width: 125px;
+    padding: 1px 20px;
+}
+
+.add-cart {
+    
+    display: flex;
+}
+
+#box > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-cart > p {
+    
+    font-family: 'Kumbh' ,sans-serif;
+
 }
