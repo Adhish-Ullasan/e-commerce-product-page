@@ -177,6 +177,7 @@ main {
 .submit {
 
     background-color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh' , sans-serif;
     border-radius: 5px;
     display: flex;
     align-items: anchor-center;
@@ -201,4 +202,12 @@ main {
     
     font-family: 'Kumbh' ,sans-serif;
 
+}
+
+.part-1 {
+  max-width: 50%;
+}
+
+.part-2 {
+  max-width: 50%;
 }
