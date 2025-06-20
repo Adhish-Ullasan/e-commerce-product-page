@@ -34,6 +34,7 @@ header {
 
     max-width:  1400px;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 #logo {
@@ -69,4 +70,13 @@ main {
 
 }
 
+#company-name > p {
+
+    font-family: 'Kumbh' ,sans-serif;
+    color:hsl(219, 9%, 45%);
+    font-size: 12px;
+    font-weight: 600;
+
+
+}
 
