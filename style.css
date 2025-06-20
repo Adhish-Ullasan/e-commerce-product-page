@@ -51,6 +51,7 @@ header {
 main {
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Kumbh' ,sans-serif;
 }
 
 .products > div :first-child {
@@ -61,13 +62,13 @@ main {
 
 .preview > div > img {
 
-        width: 50px;
-        border-radius: 10px;
+        width: 60px;
+        border-radius: 7px;
 }
 .preview {
     display: flex;
     justify-content: space-between;
-    padding-top: 2rem;
+    padding-top: 1rem;
 
 }
 
@@ -80,10 +81,10 @@ main {
 
 }
 
-#company-name , #phrase , #description {
+/* #company-name , #phrase , #description  {
 
     font-family: 'Kumbh' ,sans-serif;
-}
+} */
 #phrase > h1 {
     font-weight: 600;
     font-size: 40px;;
@@ -128,5 +129,41 @@ main {
 
 .products > div > img{
 
-    border-radius: 20px;
+    border-radius: 15px;
+}
+
+#og-price {
+    font-size: 15px;
+    color: hsl(219, 9%, 45%);
+    margin-bottom: 2px;
+}
+
+#plus {
+
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: anchor-center;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 7px;
+    height: 40px;
+
+}
+
+#plus > div > p {
+
+    font-family: 'Kumbh' ,sans-serif;
+
+}
+
+#quantity {
+
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+
+#minus {
+    align-items: anchor-center;
+    padding-bottom: 5px;
 }
