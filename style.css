@@ -46,3 +46,27 @@ header {
     height: 1px;
     margin-top: 2rem; 
 }
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products > div :first-child {
+
+    /* height: auto; */
+    width: 300px;
+} 
+
+.preview > div > img {
+
+        width: 50px;
+}
+.preview {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+
+}
+
+
