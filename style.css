@@ -99,3 +99,28 @@ main {
     margin: 1px;
 
 }
+
+.price {
+
+    display: flex;
+    width: 125px;
+    justify-content: space-between;
+    align-items: anchor-center;
+}
+
+#dollar > h2 {
+
+    margin: 1px;
+
+}
+
+#discount > h3 {
+
+    margin: 1px;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 4.5px;
+    
+}
