@@ -72,7 +72,6 @@ main {
 
 #company-name > p {
 
-    font-family: 'Kumbh' ,sans-serif;
     color:hsl(219, 9%, 45%);
     font-size: 12px;
     font-weight: 600;
@@ -80,3 +79,23 @@ main {
 
 }
 
+#company-name , #phrase , #description {
+
+    font-family: 'Kumbh' ,sans-serif;
+}
+#phrase > h1 {
+    font-weight: 600;
+    font-size: 40px;;
+    margin: auto;
+}
+
+#description {
+
+    color:hsl(219, 9%, 45%);
+    margin: auto;
+}
+
+#decription > p {
+    margin: 1px;
+
+}
